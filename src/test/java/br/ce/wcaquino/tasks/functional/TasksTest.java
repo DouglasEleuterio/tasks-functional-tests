@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class TasksTest {
 
     private WebDriver acessarAplicacao(){
-//        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver/chromedriver"); //Caminho do chromeDriver realizado o Download
+        System.setProperty("webdriver.chrome.driver", "D:\\C\\devops\\chromedriver\\chromedriver.exe")
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("http://localhost:8001/tasks");
         return driver;
